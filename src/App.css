@@ -19,8 +19,89 @@
   margin: auto;
   margin-right: 3px;
 }
-.nav-text{
+
+.nav-text {
   color: white;
   margin: auto;
   margin-left: 3px;
+}
+
+.highlights-section {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
+  margin-top: 64px;
+}
+
+.highlight-container {
+  max-width: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+  color: #2B283A;
+  margin: 36px;
+margin: auto;
+}
+
+.highlight-picture {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.sized-box-20px {
+  width: 40px;
+}
+
+.highlight-info {
+  text-align: left;
+}
+
+.location-details {
+  display: flex;
+  flex-flow: row;
+  justify-content: left;
+  margin-bottom: 7px;
+}
+
+.location-logo {
+  width: 7px;
+  height: 9.55px;
+  margin: auto;
+  margin-right: 4px;
+  margin-left: 0px;
+}
+
+.country {
+  font-size: 10px;
+  margin: auto;
+  margin-right: 12px;
+  margin-left: 0px;
+}
+
+.maps-link {
+  font-size: 10.24px;
+  color: #918E9B;
+  margin: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+
+}
+
+.highlight-location-title {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 7px;
+}
+
+.date-row {
+  font-weight: bold;
+  font-size: 10.24;margin-bottom: 9px;
+}
+
+.about {
+  font-size: 10.24;
 }
